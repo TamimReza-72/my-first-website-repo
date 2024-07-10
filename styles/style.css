@@ -27,6 +27,7 @@ margin:32px 221px 0px 221px ;
     line-height: 26px;
     text-align: center;
     margin:24px 340px 0px 340px;
+    opacity:0.7;
   }
  .btn-banner{
     border-radius:8px;
@@ -45,8 +46,9 @@ margin:32px 0px 40px 845px;
 
  /* main */
  
- .title{
+ .content-bg{
   background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
  }
  .web-development{
  display: flex;
@@ -70,6 +72,7 @@ font-weight: 400;
 line-height: 26px;
 text-align: center;
 margin:24px 296px 0px 296px  ;
+opacity:0.7;
 }
 
 /* content */
@@ -121,6 +124,7 @@ text-align: left;
 margin-top:16px;
 margin-bottom:32px;
 margin-right:250px;
+opacity:0.7;
 }
 
 /* container no 2 */
@@ -149,13 +153,13 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+opacity:0.7;
 }
 .btn-content-2{
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
-  letter-spacing: 0%;
   text-align: center;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
@@ -199,6 +203,7 @@ margin-right: 200px;
   margin-top:16px;
   margin-bottom:32px;
   margin-right:80px;
+  opacity:0.7;
 }
 .img-content-3{
   width: 260px;
@@ -209,4 +214,37 @@ margin-right: 200px;
 }
 .content-3{
   margin-left:50px;
+}
+
+/* inspiration section */
+
+.inspiration{
+  display: flex;
+  flex-direction: column;
+  
+}
+.heading{color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin:0px 144px 0px 144px;
+  }
+.description{color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin:24px 296px 0px 296px ;
+  opacity:0.7;
+}
+.border{
+  box-sizing: border-box;
+  border:1px solid rgba(13, 19, 33, 0.2) ;
+  border-radius: 16px;
+  padding: 30px;
+  margin:80px 410px 0px 410px;
+}
+.video{
+  border-radius: 16px;
 }
