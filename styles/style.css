@@ -248,3 +248,72 @@ margin-right: 200px;
 .video{
   border-radius: 16px;
 }
+
+/* targets section */
+
+.targets{
+  display:flex;
+  flex-direction: column;
+}
+
+.targets-title{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+margin-top: 182px;
+}
+.targets-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin:0px 294px 0px 294px;
+opacity: 0.7;
+
+}
+.targets-container{
+display: flex;
+gap:24px;
+margin:52px 140px 0px 180px;
+}
+.target-title{
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+text-align: left;
+}
+.target-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+opacity: 0.7;
+}
+.target-link{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+text-decoration-line: underline;
+}
+.target-1{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding:70px;
+}
+.target-2{
+  padding:60px;
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.target-3{
+  padding:60px;
+  border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
